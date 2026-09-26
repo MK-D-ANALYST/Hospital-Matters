@@ -9,3 +9,27 @@ doctor_name	String / Text	The full name of the doctor.	Dr. Benjamin Manirakiza	N
 specialty	String / Text	The medical specialty or area of practice of the doctor.	Cardiology	Categorical field. Examples include Cardiology, Neurology, Pulmonology, Endocrinology, and General Practice.
 
 Business Questions
+1. doctor_id
+
+Purpose: Uniquely identifies each doctor.
+Example: DOC0009
+Data type: Text
+Key: Primary/unique identifier
+Nulls: Should not contain null values.
+
+2. doctor_name
+
+Purpose: Stores the doctor's name.
+Example: Dr. Bertrand Sebazungu
+Data type: Text
+Nulls: Should not contain null values.
+Data quality note: Your dataset has some inconsistent formatting, such as dr. grace kayitare being lowercase and some names having extra spaces.
+
+3. specialty
+
+Purpose: Identifies the doctor's medical specialization.
+Example: Cardiology
+Data type: Text / Categorical
+Nulls: Should not contain null values.
+Possible values in this dataset: Cardiology, General Practice, Endocrinology, Pulmonology, Neurology.
+Summary
