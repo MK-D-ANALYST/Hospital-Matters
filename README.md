@@ -33,3 +33,37 @@ Data type: Text / Categorical
 Nulls: Should not contain null values.
 Possible values in this dataset: Cardiology, General Practice, Endocrinology, Pulmonology, Neurology.
 Summary
+
+
+Absolutely. For this dataset, the data dictionary can be kept simple because there are only three columns.
+
+### Data Dictionary — Doctors Dataset
+
+
+### Field Details
+
+**1. `doctor_id`**
+
+* **Purpose:** Uniquely identifies each doctor.
+* **Example:** `DOC0009`
+* **Data type:** Text
+* **Key:** Primary/unique identifier
+* **Nulls:** Should not contain null values.
+
+**2. `doctor_name`**
+
+* **Purpose:** Stores the doctor's name.
+* **Example:** `Dr. Bertrand Sebazungu`
+* **Data type:** Text
+* **Nulls:** Should not contain null values.
+* **Data quality note:** Your dataset has some inconsistent formatting, such as `dr. grace kayitare` being lowercase and some names having extra spaces.
+
+**3. `specialty`**
+
+* **Purpose:** Identifies the doctor's medical specialization.
+* **Example:** `Cardiology`
+* **Data type:** Text / Categorical
+* **Nulls:** Should not contain null values.
+* **Possible values in this dataset:** Cardiology, General Practice, Endocrinology, Pulmonology, Neurology.
+
+
